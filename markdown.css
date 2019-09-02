@@ -41,6 +41,7 @@ blockquote {
   border-left: solid 4px #DDD;
   padding: 0 1em;
   font-size: 1em;
+  color: #777;
 }
 
 ol,
@@ -51,8 +52,12 @@ ul {
   line-height: 1.5;
 }
 ol li,
-ul li {
-  margin: .4em 0;
+ul li,
+ol ol,
+ol ul,
+ul ol,
+ul ul {
+  margin: .3em 0;
 }
 .contains-task-list {
   list-style-type: none;
@@ -77,8 +82,9 @@ pre {
   border-radius: 4px;
   padding: .4em .6em;
   font-size: 1em;
-  line-height: 1.5;
-  background-color: #EEE;
+  line-height: 1.4;
+  background-color: #F2F2F6;
+  overflow: auto;
 }
 code {
   font-family: 'Roboto Mono', Menlo, 'Source Code Pro', Consolas, monospace;
@@ -86,14 +92,23 @@ code {
   padding: .2em .4em;
   font-size: .9em;
   line-height: 1.6;
-  background-color: #EEE;
+  color: #333;
+  background-color: #F2F2F6;
 }
 pre code {
   padding: 0;
   border-radius: 0;
-  font-size: inherit;
-  line-height: inherit;
+  font-size: .9em;
+  line-height: 1.4;
   background-color: transparent;
+}
+
+details {
+  padding: 0 1.5em;
+}
+details summary {
+  margin-left: -1.5em;
+  margin-right: -1.5em;
 }
 
 hr {
@@ -120,19 +135,19 @@ table td {
 
 a {
   text-decoration: none;
-  color: #44F;
+  color: #44D;
 }
 a:hover {
   text-decoration: underline;
 }
 a:visited {
-  color: #669;
+  color: #77C;
 }
 
 img {
   max-width: 100%;
 }
-img:only-child {
+p > img:only-child {
   display: block;
   margin: 0 auto;
   width: auto;
