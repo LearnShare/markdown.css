@@ -1,0 +1,28 @@
+{
+  "name": "markdown.css",
+  "version": "0.1.0",
+  "description": "CSS for Markdown.",
+  "dependencies": {},
+  "devDependencies": {
+    "highlight.js": "^9.15.10",
+    "markdown-it": "^9.1.0",
+    "markdown-it-deflist": "^2.0.3",
+    "markdown-it-sub": "^1.0.0",
+    "markdown-it-sup": "^1.0.0",
+    "markdown-it-task-lists": "^2.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LearnShare/markdown.css.git"
+  },
+  "keywords": [
+    "Markdown",
+    "CSS"
+  ],
+  "author": "LearnShare",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LearnShare/markdown.css/issues"
+  },
+  "homepage": "https://github.com/LearnShare/markdown.css#readme"
+}

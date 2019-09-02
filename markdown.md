@@ -36,7 +36,7 @@ h1
 h2
 ----
 
-### Block quotes
+### Block Quotes
 
 >Single Line
 
@@ -102,7 +102,7 @@ Lines (omit following `>`)
 #### Task List
 
 - [x] Checked
-- [] Task
+- [ ] Task
 
 ### Definition List
 
@@ -175,13 +175,13 @@ Mike |  32
 
 ### Images
 
-![LearnShare](https://avatars2.githubusercontent.com/u/3265208?v=3&s=100 "LearnShare")
+![small](https://images.unsplash.com/photo-1565714683556-51844c3fdb3f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=360&q=80 "small")
 
-![LearnShare][github-url]
+![large][cat-url]
 
-[github-url]: https://avatars2.githubusercontent.com/u/3265208?v=3&s=100 "LearnShare"
+[cat-url]: https://images.unsplash.com/photo-1565714683556-51844c3fdb3f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&h=400&q=80 "large"
 
-![LearnShare](404 "LearnShare")
+![404](404 "404")
 
 ### Inline Code
 
