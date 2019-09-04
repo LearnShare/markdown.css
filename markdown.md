@@ -175,7 +175,7 @@ Mike |  32
 
 ### Images
 
-![small](https://images.unsplash.com/photo-1565714683556-51844c3fdb3f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=360&q=80 "small")
+![small](https://images.unsplash.com/photo-1565714683556-51844c3fdb3f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80 "small")
 
 ![large][cat-url]
 

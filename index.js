@@ -17,7 +17,9 @@ const template = `
   <link rel="stylesheet" href="./markdown.css">
 </head>
 <body>
+<article>
 $content$
+</article>
 </body>
 </html>
 `;

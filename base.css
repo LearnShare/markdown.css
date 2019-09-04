@@ -5,3 +5,8 @@ html {
 body {
   color: #222;
 }
+
+article {
+  margin: 0 auto;
+  max-width: 1000px;
+}
